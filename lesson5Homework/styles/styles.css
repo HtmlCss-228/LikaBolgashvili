@@ -1,0 +1,17 @@
+th {
+    color: blue;
+}
+
+td {
+    color: aqua;
+}
+
+table {
+    border: 2px dashed black;
+    border-collapse: collapse;
+}
+
+body {
+    background-color: azure;
+    text-align: center;
+}
