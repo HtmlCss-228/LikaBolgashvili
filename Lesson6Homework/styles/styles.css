@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+#welcometxt {
+    font-size: 14px;
+    color: #757575;
+    font-weight: 400;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    position: relative;
+    top: 20px;
+}
+
+#signIntxt {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    color: #333333
+}
+
+.signIntexts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start; 
+    width: 352px;   
+}
+
+.signInFormEmail, .signInFormPass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#email, #pass {
+    font-size: 14px;
+    color: #333333;
+    font-weight: 500;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    position: relative;
+    top: 6px;
+}
+
+#emailinput, #passinput {
+    width: 352px;
+    height: 45px;
+    border: 1px solid #DEDEDE;
+    border-radius: 6px;
+}
+
+.ContinueButton {
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: "Mulish", sans-serif;
+    width: 352px;
+    height: 45px;
+    border: 1px solid #DEDEDE;
+    border-radius: 6px;
+    background: rgb(153, 74, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+
+#forgotPassword { 
+    font-weight: 700;
+    font-size: 12px;
+    font-family: "Mulish", sans-serif;
+    color: #625BF7 ;
+    margin-top: 15px;
+    position: relative;
+    top: 21px; 
+}
+
+.signIntexts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
